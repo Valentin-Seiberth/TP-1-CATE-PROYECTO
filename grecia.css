@@ -1,0 +1,136 @@
+/* .bandera{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.azul1{
+    background-color: blue;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    height: 100%;
+}
+
+.blanca1{
+    background-color: rgb(214, 214, 214);
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    height: 100%;
+}
+
+.azul2{
+    background-color: blue;
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    height: 100%;
+}
+
+.blanca2{
+    background-color: rgb(214, 214, 214);
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    height: 100%;
+}
+
+.azul3{
+    background-color: blue;
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+    height: 100%;
+}
+
+.blanca3{
+    background-color: rgb(214, 214, 214);
+    grid-row: 6 / 7;
+    grid-column: 1 / 4;
+    height: 100%;
+}
+
+.azul4{
+    background-color: blue;
+    grid-row: 7 / 8;
+    grid-column: 1 / 4;
+    height: 100%;
+}
+
+.blanca4{
+    background-color: rgb(214, 214, 214);
+    grid-row: 8 / 9;
+    grid-column: 1 / 4;
+    height: 100%;
+}
+
+.azul_final{
+    background-color: blue;
+    grid-row: 9 / 10;
+    grid-column: 1 / 4;
+    height: 100%;
+}
+    */
+    body {
+        margin: 0;
+    }
+    
+    .bandera {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: repeat(9, 1fr);
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .cruz {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows: 1fr 1fr 2fr;
+        position: absolute;
+        background-color: white;
+        position: absolute;
+    }
+    
+    .izq_arriba {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        background-color: #0d5eaf;
+    }
+    
+    .izq_abajo {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        background-color: #0d5eaf;
+    }
+    
+    .der_arriba {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        background-color: #0d5eaf;
+    }
+    
+    .der_abajo {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        background-color: #0d5eaf;
+    }
+    
+    .franjas {
+        display: grid;
+        grid-template-rows: repeat(9, 1fr);
+        grid-column: 1 / 3;
+        grid-row: 1 / 10;
+        position: relative;
+    }
+    
+    .azul1, .azul2, .azul3, .azul4, .azul_final {
+        background-color: #0d5eaf;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .blanca1, .blanca2, .blanca3, .blanca4 {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }

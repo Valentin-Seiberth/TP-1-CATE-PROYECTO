@@ -1,0 +1,29 @@
+.bandera{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+.rojo1{
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+    background-color: red;
+}
+.rojo2{
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+    background-color: red;
+}
+.blanco{
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
+    background-color: white;
+}
+.logo{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
